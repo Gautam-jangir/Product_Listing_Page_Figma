@@ -1,8 +1,8 @@
 function Button({ title }) {
   return (
     <>
-      <button className="font-normal text-[25px] border py-2 px-10 rounded-2xl w-[217px] h-[64px]">
-        <span>{title}</span>
+      <button className="font-normal text-[12px] lg:text-[25px] border lg:py-2 lg:px-10 rounded-[6px] lg:rounded-[12px] w-[108px] lg:w-[217px] h-[32px] lg:h-[64px]">
+        <span className="w-[14px] lg:w-[28px]">{title}</span>
       </button>
     </>
   );

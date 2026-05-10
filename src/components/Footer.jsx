@@ -1,9 +1,11 @@
+import logo from "../assets/icons/logo.png";
+
 function Footer() {
   return (
     <div className="flex flex-row justify-between ml-[85px]">
       <div className="flex flex-col w-[580px] mb-[141px]">
         <div className="flex items-center gap-[13px]">
-          <img className="w-[94px] h-[94px]" src="/logo.png" alt="logo" />
+          <img className="w-[94px] h-[94px]" src={logo} alt="logo" />
           <span className="font-black text-[45px] ml-[13px]">FloraVision</span>
         </div>
         <div className="font-medium text-[28px] ml-[14px] mt-[43px]">

@@ -4,13 +4,15 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import OurBesto2Section from "./OurBesto2Section";
 import ResponsiveGallery from "./ResponsiveGallery";
-import ResponsiveSection from "./ResponsiveSection";
-import SectionHeading from "./SectionHeading";
+import ResponsiveSection, {
+  ResponsiveSectionReverse,
+} from "./ResponsiveSection";
+import SectionHeading, { O2Heading } from "./SectionHeading";
 
 function TopSection() {
   return (
-    <div className="text-white bg-[#1B2316]">
-      <div className="bg-[url(./assets/background.jpg)] w-[1728px] h-[2592px] bg-no-repeat bg-cover  font-(family-name:--font-inter)">
+    <div className="text-white bg-[#1B2316] h-full w-full">
+      <div className="z-[-100] bg-[url(./assets/background.jpg)] bg-no-repeat bg-cover font-(family-name:--font-inter) w-full h-[2592px] bg-top">
         <Navbar />
         <EarthsExhale />
         <div className="mt-[83px] mb-[79px]">
@@ -20,7 +22,7 @@ function TopSection() {
           <ResponsiveSection />
         </div>
         <div className="ml-[54px] mr-[55px] mb-[127px]">
-          <ResponsiveSection />
+          <ResponsiveSectionReverse />
         </div>
       </div>
       <div className="bg-[#1B2316]">
@@ -40,18 +42,18 @@ function TopSection() {
           <CustomerReviewSectionCard />
         </div>
         <div className="mt-[223px]">
-          <SectionHeading headingTitle="Our Best o2" />
+          <O2Heading headingTitle="Our Best o2" />
         </div>
         <div className="mt-[242px]">
           <OurBesto2Section />
         </div>
         <div className="mt-[260px]">
-        <Footer />
-
+          <Footer />
         </div>
       </div>
     </div>
   );
 }
+
 
 export default TopSection;

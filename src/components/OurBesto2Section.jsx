@@ -11,7 +11,7 @@ function OurBesto2Section({ flexDirection = "row" }) {
         <div className="flex justify-center w-full lg:w-1/2 relative">
           {/* <div className="w-[459px] h-[459px] bg-amber-300 absolute top-[-40px] lg:static"></div> */}
           <img
-            className="w-[601px] h-[732px] absolute top-[-510px] lg:top-[-250px]"
+            className="w-[887px] h-[887px] absolute top-[-510px] lg:top-[-124px]"
             src={aglaonemaPlant}
             alt="AglaonemaPlant"
           />
@@ -41,7 +41,7 @@ function OurBesto2Section({ flexDirection = "row" }) {
                   src={rightArrow}
                   alt="right_arrow"
                 />
-                <div>
+                <div className="mx-[43px]">
                   <span className="font-bold text-[20px]">01</span>
                   <span className="font-bold text-[20px]">/</span>
                   <span className="font-bold text-[15px]">04</span>

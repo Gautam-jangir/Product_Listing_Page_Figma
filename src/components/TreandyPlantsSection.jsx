@@ -1,10 +1,10 @@
-import Button from "../components/Button";
-import aglaonemaPlant from "../assets/products_img/Rose_Gold_Feminine_Calligraphy_Monogram_Logo_1.png";
+import Button from "./Button";
+import plantImage2 from "../assets/products_img/Rose_Gold_Feminine_Calligraphy_Monogram_Logo_2.png";
 import plantImage3 from "../assets/products_img/Rose_Gold_Feminine_Calligraphy_Monogram_Logo_3.png";
 import BagButton from "./BagButton";
 import treandyPlantsCard from "../assets/icons/treandyPlantsCard.svg";
 
-function ResponsiveSection() {
+function TreandyPlantsSection() {
   return (
     <div className="flex justify-center">
       <div
@@ -17,12 +17,12 @@ function ResponsiveSection() {
         /> */}
         <div className="flex justify-center w-full lg:w-1/2 relative">
           <img
-            className="w-[300px] h-[366px] lg:w-[601px] lg:h-[732px] absolute top-[-100px] lg:op-[-510px] lg:top-[-206px]"
-            src={aglaonemaPlant}
+            className="w-[300px] h-[366px] lg:w-[732px] lg:h-[732px] absolute top-[-100px] lg:top-[-206px]"
+            src={plantImage2}
             alt="AglaonemaPlant"
           />
         </div>
-        <div className="flex justify-center items-center px-[140px] py-[80px] lg:p-20 lg:px-2 lg:justify-start w-full lg:w-1/2">
+        <div className="flex justify-center items-center px-[40px] py-[80px] lg:p-20 lg:px-2 lg:justify-start w-full lg:w-1/2">
           <div className="pt-[0px] lg:pt-0 flex flex-col lg:pl-20">
             <span className="font-semibold text-[19px] lg:text-[38px]">
               For Your Desks Decorations
@@ -225,25 +225,25 @@ function ResponsiveSection() {
 }
 
 
-function ResponsiveSectionReverse() {
+function TreandyPlantsSectionReverse() {
   return (
     <div className="flex justify-center">
       <div
-        className={`flex justify-between lg:justify-center flex-col-reverse lg:flex-row-reverse h-[575px] w-full lg:w-[1619px] lg:h-[526px] bg-contain bg-no-repeat relative`}
+        className={`flex lg:justify-center flex-col-reverse lg:flex-row-reverse h-[575px] w-full lg:w-[1619px] lg:h-[526px] bg-contain bg-no-repeat relative`}
       >
         <img
-          className="absolute inset-0 rotate-90 lg:rotate-0 scale-y-200 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+          className="absolute inset-0 lg:rotate-0 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
           src={treandyPlantsCard}
           alt="TreandyPlant"
         />
         <div className="flex justify-center w-full lg:w-1/2 relative">
           <img
-            className="w-[732px] h-[732px] absolute lg:top-[-150px]"
+            className="w-[300px] h-[366px] lg:w-[732px] lg:h-[732px] absolute top-[-650px] lg:top-[-150px]"
             src={plantImage3}
             alt="AglaonemaPlant"
           />
         </div>
-        <div className="flex justify-center items-center px-[140px] py-[80px] lg:p-20 lg:px-2 lg:justify-start w-full lg:w-1/2">
+        <div className="flex justify-center items-center px-[40px] py-[100px] lg:p-20 lg:px-2 lg:justify-start w-full lg:w-1/2">
           <div className="pt-[0px] lg:pt-0 flex flex-col lg:pl-20">
             <span className="font-semibold text-[19px] lg:text-[38px]">
               For Your Desks Decorations
@@ -266,5 +266,5 @@ function ResponsiveSectionReverse() {
   );
 }
 
-export default ResponsiveSection;
-export {ResponsiveSectionReverse};
+export default TreandyPlantsSection;
+export {TreandyPlantsSectionReverse};

@@ -4,25 +4,24 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import OurBesto2Section from "./OurBesto2Section";
 import ResponsiveGallery from "./ResponsiveGallery";
-import ResponsiveSection, {
-  ResponsiveSectionReverse,
-} from "./ResponsiveSection";
+import { TreandyPlantsSectionReverse } from "./TreandyPlantsSection";
 import SectionHeading, { O2Heading } from "./SectionHeading";
+import TreandyPlantsSection from "./TreandyPlantsSection";
 
 function TopSection() {
   return (
     <div className="text-white bg-[#1B2316] h-full w-full">
-      <div className="z-[-100] bg-[url(./assets/background.jpg)] bg-no-repeat bg-cover font-(family-name:--font-inter) w-full h-[2592px] bg-top">
+      <div className="z-[-100] bg-[url(./assets/background.jpg)] bg-no-repeat bg-cover font-(family-name:--font-inter) w-full h lg:h-[2592px] bg-top">
         <Navbar />
         <EarthsExhale />
         <div className="mt-[83px] mb-[79px]">
           <SectionHeading headingTitle="Our Treandy plants" />
         </div>
         <div className="ml-[54px] mr-[55px] mb-[127px]">
-          <ResponsiveSection />
+          <TreandyPlantsSection />
         </div>
         <div className="ml-[54px] mr-[55px] mb-[127px]">
-          <ResponsiveSectionReverse />
+          <TreandyPlantsSectionReverse />
         </div>
       </div>
       <div className="bg-[#1B2316]">
@@ -32,11 +31,11 @@ function TopSection() {
         <div className="mb-[65px]">
           <ResponsiveGallery />
         </div>
-        <div className="mb-[65px]">
+        {/* <div className="mb-[65px]">
           <ResponsiveGallery />
-        </div>
+        </div> */}
         <SectionHeading headingTitle="Customer Review" />
-        <div className="flex justify-center items-center gap-10 my-20">
+        <div className="flex flex-wrap justify-center items-center gap-10 my-20">
           <CustomerReviewSectionCard />
           <CustomerReviewSectionCard />
           <CustomerReviewSectionCard />
@@ -54,6 +53,5 @@ function TopSection() {
     </div>
   );
 }
-
 
 export default TopSection;

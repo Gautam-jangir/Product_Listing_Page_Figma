@@ -6,27 +6,27 @@ function OurBesto2Section({ flexDirection = "row" }) {
   return (
     <div className="flex justify-center">
       <div
-        className={`flex justify-center flex-col lg:flex-${flexDirection}  sm:w-[512px] sm:h-[644px] lg:w-[1600px] lg:h-[755px] bg-[url(./assets/icons/ourBesto2Card.svg)] bg-contain bg-no-repeat backdrop-blur-[15px]`}
+        className={`flex justify-center flex-col lg:flex-${flexDirection}  w-[512px] h-[644px] lg:w-[1600px] lg:h-[755px] bg-[url(./assets/icons/ourBesto2Card.svg)] bg-contain bg-no-repeat backdrop-blur-[15px]`}
       >
         <div className="flex justify-center w-full lg:w-1/2 relative">
           {/* <div className="w-[459px] h-[459px] bg-amber-300 absolute top-[-40px] lg:static"></div> */}
           <img
-            className="w-[887px] h-[887px] absolute top-[-510px] lg:top-[-124px]"
+            className="w-[443px] h-[443px] lg:w-[887px] lg:h-[887px] absolute top-[-110px] lg:top-[-124px]"
             src={aglaonemaPlant}
             alt="AglaonemaPlant"
           />
         </div>
         <div className="flex justify-center items-center p-20 lg:px-2 lg:justify-start w-full lg:w-1/2">
-          <div className="pt-[320px] lg:pt-0 flex flex-col pl-20">
-            <span className="font-semibold text-[38px]">
+          <div className="pt-[320px] lg:pt-0 flex flex-col lg:pl-20">
+            <span className="font-semibold text-[30px] lg:text-[38px]">
               We Have Small And Best O2 Plants Collection’s
             </span>
-            <span className="font-semibold text-[28px] my-6">
+            <span className="font-semibold text-[20px] lg:text-[28px] my-6">
               Oxygen-producing plants, often referred to as "O2 plants," are
               those that release oxygen into the atmosphere through the process
               of photosynthesis.
             </span>
-            <span className="font-semibold text-[20px] my-6">
+            <span className="font-semibold text-[20px] lg:text-[28px] my-6">
               Many plants can help filter out pollutants and toxins from the
               air, such as formaldehyde, benzene, and trichloroethylene. This
               makes the air cleaner and healthier to breathe.

@@ -1,16 +1,44 @@
-# React + Vite
+# Product Listing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Used
 
-Currently, two official plugins are available:
+*   React
+*   Vite
+*   Tailwind CSS
+*   JavaScript / JSX
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Installation
 
-## React Compiler
+*   Clone the repository:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+git clone https://github.com/Gautam-jangir/Product_Listing_Page_Figma.git
+```
 
-## Expanding the ESLint configuration
+*   Move to project folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+cd Product_Listing_Page_Figma
+```
+
+*   Install dependencies
+
+```
+npm install
+```
+
+*   Start local server
+
+```
+npm run dev
+```
+
+*   Build for production
+
+```
+npm run build
+```
+
+## View live at Render
+
+[Product\_Listing\_Page\_Figma](https://product-listing-page-figma.onrender.com)

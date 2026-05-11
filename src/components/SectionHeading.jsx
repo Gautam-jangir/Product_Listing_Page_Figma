@@ -7,8 +7,8 @@ function SectionHeading({ headingTitle }) {
   return (
     <div className="flex p-20 justify-center items-center border-bs-indigo-400 h-20">
       <div className="relative flex justify-center items-center px-[50px] py-[20px] rounded-[20px] overflow-hidden">
-        <img className="absolute left-[30px] top-[40px]" src={headingLeft} />
-        <img className="absolute right-[30px] top-[30px]" src={headingRight} />
+        <img className="absolute left-[30px]  lg:left-[30px] lg:top-[40px]" src={headingLeft} />
+        <img className="absolute right-[30px] lg:right-[30px] lg:top-[30px]" src={headingRight} />
         <span className="text-[clamp(28px,5vw,55px)] font-semibold">
           {headingTitle}
         </span>
@@ -21,8 +21,8 @@ function O2Heading({headingTitle}) {
   return (
     <div className="flex p-20 justify-center items-center border-bs-indigo-400 h-20">
       <div className="relative flex justify-center items-center px-[50px] py-[25px] rounded-[20px] overflow-hidden">
-        <img className="absolute left-[10px] top-[50px]" src={o2left} />
-        <img className="absolute right-[10px] top-[10px]" src={o2Right} />
+        <img className="absolute left-[10px] top-[20px] lg:left-[10px] lg:top-[50px]" src={o2left} />
+        <img className="absolute right-[10px] top-[0px] lg:right-[10px] lg:top-[10px]" src={o2Right} />
         <span className="text-[clamp(28px,5vw,55px)] font-semibold">
           {headingTitle}
         </span>

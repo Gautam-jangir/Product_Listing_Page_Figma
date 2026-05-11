@@ -17,7 +17,7 @@ function EarthsExhale() {
     </p>
 
     <div className=" flex flex-row items-center gap-6 mt-8">
-      <button className="font-normal text-[20px] lg:text-[28px] border py-2 px-8 lg:px-10 rounded-2xl">
+      <button className="font-normal text-[12px] lg:text-[28px] border py-2 px-8 lg:px-10 rounded-2xl">
         Buy Now
       </button>
 
@@ -30,7 +30,7 @@ function EarthsExhale() {
       </div>
     </div>
 
-    <div className="mt-[80px] lg:mt-[173px] w-full flex justify-center lg:justify-start">
+    <div className="mt-[60px] lg:mt-[173px] w-full flex justify-center lg:justify-start">
       <CustomerReview />
     </div>
   </div>

@@ -7,6 +7,7 @@ import ResponsiveGallery from "./ResponsiveGallery";
 import { TreandyPlantsSectionReverse } from "./TreandyPlantsSection";
 import SectionHeading, { O2Heading } from "./SectionHeading";
 import TreandyPlantsSection from "./TreandyPlantsSection";
+import PaginationCard from "./PaginationCard";
 
 function TopSection() {
   return (
@@ -45,6 +46,9 @@ function TopSection() {
         </div>
         <div className="mt-[242px]">
           <OurBesto2Section />
+        </div>
+        <div className="mt-[100px]">
+          <PaginationCard />
         </div>
         <div className="mt-[260px]">
           <Footer />
